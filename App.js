@@ -1,25 +1,41 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
+
+class PageTwo extends React.Component {
+  render(){
+    return (
+      <View style={{alignItems: "center"}}>
+        <Text>Deez nuts</Text>
+      </View>
+    )
+  }
+}
+
+
 export default class App extends React.Component {
   constructor(){
     super();
     this.state = {
-      pageTwo: false
+      amount: 0
     }
   }
-  onPressLearnMore = () => {
-    console.log("you got me")
-    return <PageTwo/>
-  }
   render() {
+    onPressLearnMore = () => {
+      this.setState({
+        amount: this.state.amount+1
+      })
+      console.log("you got me")
+      return;
+    }
     return (
         <View style={styles.container}>
           <Text>Open up App.js to start working on your app!</Text>
           <Text>This is an edit. Bitch.</Text>
+          <Text>Number of times pressed: {this.state.amount}</Text>
           {/* <Button title="baby button" onPress={console.log("BABY")}>This is a button.</Button> */}
           {/* <View > */}
-            <Text style={styleTwo.container}>Next page</Text>
+            {/* <Text style={styles.containerTwo}>Next page</Text> */}
           {/* </View> */}
           <Button
             onPress={onPressLearnMore}
@@ -39,10 +55,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
-
-const styleTwo = StyleSheet.create({
-  container: {
+  containerTwo: {
     // flex: 1,
     padding: 10,
     margin: 5,
