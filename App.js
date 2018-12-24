@@ -6,7 +6,7 @@ class PageTwo extends React.Component {
   render(){
     return (
       <View style={{alignItems: "center"}}>
-        <Text>Deez nuts</Text>
+        <Text>Howdy, Pardner</Text>
       </View>
     )
   }
