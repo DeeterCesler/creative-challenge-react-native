@@ -34,7 +34,6 @@ export default class App extends React.Component {
           <Text>Open up App.js to start working on your app!</Text>
           <Text>This is an edit. Bitch.</Text>
           <Text>Number of times pressed: {this.state.amount}</Text>
-          <Text>This is an edit. Bitch.</Text>
           {/* <Button title="baby button" onPress={console.log("BABY")}>This is a button.</Button> */}
           {/* <View > */}
             {/* <Text style={styles.containerTwo}>Next page</Text> */}
