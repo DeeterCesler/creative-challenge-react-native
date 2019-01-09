@@ -32,7 +32,6 @@ export default class App extends React.Component {
       <ScrollView>
         <View style={styles.container}>
           <Text>Open up App.js to start working on your app!</Text>
-          <Text>This is an edit. Bitch.</Text>
           <Text>Number of times pressed: {this.state.amount}</Text>
           {/* <Button title="baby button" onPress={console.log("BABY")}>This is a button.</Button> */}
           {/* <View > */}
