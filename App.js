@@ -25,7 +25,7 @@ export default class App extends React.Component {
       this.setState({
         amount: this.state.amount+1
       })
-      console.log("you got me")
+      console.log("ay shawty")
       return;
     }
     return (
