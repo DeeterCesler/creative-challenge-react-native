@@ -25,7 +25,7 @@ export default class App extends React.Component {
       this.setState({
         amount: this.state.amount+1
       })
-      console.log("ay shawty")
+      console.log("fake commit gottem")
       return;
     }
     return (
