@@ -3,7 +3,7 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerNgrokUrl": "https://5t-uvz.anonymous.creative-challenge-react-native.exp.direct",
+  "packagerNgrokUrl": "https://packager.5t-uvz.anonymous.creative-challenge-react-native.exp.direct",
+  "ngrokPid": 38748
 }
